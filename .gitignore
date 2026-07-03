@@ -1,0 +1,67 @@
+# ────────────────────────────────────────────────
+#  Secrets & credentials  ⚠️  NEVER COMMIT THESE
+# ────────────────────────────────────────────────
+firebase_service_account.json
+*service_account*.json
+*.pem
+*.key
+.env
+.env.*
+
+# ────────────────────────────────────────────────
+#  Model weights & large binaries
+# ────────────────────────────────────────────────
+/AI_Model_Weights
+*.pt
+*.pkl
+*.mp4
+*.avi
+*.mov
+
+# ────────────────────────────────────────────────
+#  Databases & generated data
+# ────────────────────────────────────────────────
+*.db
+firebase_sample_data_*.json
+firebase_backups/
+analysis_results/
+realtime_analysis/
+analysis_history/
+
+# ────────────────────────────────────────────────
+#  Biometric / personal data  ⚠️  privacy: never publish real faces
+# ────────────────────────────────────────────────
+enhanced_face_database.json
+face_database.json
+test_face.jpg
+**/face_images/
+
+# ────────────────────────────────────────────────
+#  Build artifacts
+# ────────────────────────────────────────────────
+dist/
+build/
+*.spec.bak
+
+# ────────────────────────────────────────────────
+#  Python
+# ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# ────────────────────────────────────────────────
+#  Virtual environments
+# ────────────────────────────────────────────────
+venv/
+.venv/
+env/
+
+# ────────────────────────────────────────────────
+#  OS / editor cruft
+# ────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
